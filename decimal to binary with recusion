@@ -1,0 +1,10 @@
+def amit(a):
+   if a > 1:
+       amit(a//2)
+   print(a % 2,end = '')
+
+
+d = int(input("enter a number"))
+
+amit(d)
+print()
